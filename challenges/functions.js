@@ -34,7 +34,9 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 // Explain in your own words why nested function can access the variable internal.
 
 // Explanation: 
-Nested functions 
+//Nested functions is within another function.  Due to the scope rules, the functions outside of the parent function of the nested function cannot access the 
+//information in the nested function, BUT the nested function can gain access to the other functions and objects outside of its parent. Its a good practice
+//to nest because it organizes code well.  Prevents from having to hard code a lot of info together. 
 
 const external = "I'm outside the function";
 
